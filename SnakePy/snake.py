@@ -49,7 +49,7 @@ while not game_over:
             if event.key == K_LEFT and my_direction != RIGHT:
                 my_direction = LEFT
             if event.key == K_RIGHT and my_direction != LEFT:
-                my_direction = RIGHT
+                my_direction = RIGHT  
 
     if collison(snake[0], apple_pos):
         apple_pos = on_grid_random()
